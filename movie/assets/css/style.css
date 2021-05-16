@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(100, 38, 38);
+  color: whitesmoke;
+
+}
+
+.navbar {
+  width: 100%;
+  background-color: orange;
+}
+
+.navbar .title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+}
+.navbar .nav-content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar ul {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+.navbar ul a{
+  text-decoration: none;
+}
+
+.navbar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.navbar ul li.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-details {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.hero-details .space {
+  width: 80px;
+}
+
+.hero-details .col1 {
+  flex: 1;
+}
+.hero-details .col2 {
+  flex: 2;
+}
+
+#hero-img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.col2 span {
+  font-weight: bold;
+}
+
+.add-favorite {
+  background-color: blueviolet;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  width: 100%;
+  max-width: 200px;
+}
+
+.add-favorite:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+section{
+  width: 50%;
+  text-align: center;
+  margin-left: 25vw;
+  margin-top: 5vw;
+  background-color: rgb(56, 1, 29);
+}
+#super-hero-select{
+  background-color: rgb(248, 28, 102);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

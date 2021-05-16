@@ -1,0 +1,55 @@
+<html lang="en" class="html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Favorite Super Hero Movies</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-content">
+          <span class="title">Super Hero Details</span>
+          <ul>
+            <li class="active">Home</li>
+           <a href="fav.html"><li>Favorite</li></a> 
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="main">
+        <form>
+            <label>Select Super Hero</label>
+            <select id="super-hero-select">
+              <option value="">Select Hero</option>
+            </select>
+        </form>
+
+        <div class="hero-details">
+            <div class="col1">
+                <img id="hero-img" src="" alt=" "/>
+                <br/><br/>
+                <div class="favorite">
+                  <button id="add-fav" class="add-favorite">Add to favorite</button>
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="col2">
+                <p>Name: <span id="hero-name"></span></p>
+                <p>Place of Birth: <span id="hero-birth-place"></span></p>
+                <p>Publisher: <span id="hero-publisher"></span></p>
+                <p>Height: <span id="hero-height"></span></p>
+                <p>Weight: <span id="hero-weight"></span></p>
+                <p>Gender: <span id="hero-gender"></span></p>
+                <p>Occupation: <span id="hero-occupation"></span></p>
+
+            </div>
+        </div>
+    </section>
+
+    
+  </body>
+  <script src="assets/js/script.js"></script>
+</html>
